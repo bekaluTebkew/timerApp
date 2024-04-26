@@ -28,5 +28,3 @@ inputBtn.addEventListener('click', function () {
   // Call the funtion
   timerLogic();
 });
-
-
