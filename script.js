@@ -21,7 +21,7 @@ const timerLogic = function () {
     // Display Timer in browser window
     timerClock.textContent = '';
     timerClock.insertAdjacentText('afterbegin', `${min}:${sec}`);
-    inputBtn.innerHTML = 'Stop Timer';
+    
   }, 1000);
 };
 inputBtn.addEventListener('click', function () {
