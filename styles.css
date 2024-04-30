@@ -14,70 +14,76 @@ body {
   border: 3px solid rgb(255, 231, 231);
   border-radius: 10px;
   height: 8vh;
-  margin-top: 60px;
+  margin-top: 30px;
   width: 100px;
- 
+  text-align: center;
 }
 
 .timer-clock {
   font-size: 100px;
-  color: white;
-  margin-top: 30px;
+  color: rgb(0, 0, 0);
+  /* margin-top: 30px; */
 }
-.start-timer,.Pause-timer,.Stop-timer{
+.start-timer,
+.Pause-timer,
+.Stop-timer {
   height: 5vh;
   border: 3px solid rgb(255, 255, 255);
-
   border-radius: 25px;
-  margin-left: 90px;
-  margin-top: 130px;
+  /* margin-left: 90px;
+  margin-top: 30px; */
+  margin: 30px;
 }
 
-.start-timer{
+.start-timer {
   height: 55px;
   width: 55px;
   background-image: url("icons8-play-50.png");
   background-repeat: no-repeat;
   padding: 10px;
 }
-.Pause-timer{
+.Pause-timer {
   height: 55px;
   width: 55px;
   background-image: url("icons8-pause-50.png");
   background-repeat: no-repeat;
   padding: 10px;
 }
-.Stop-timer{
+.Stop-timer {
   height: 55px;
   width: 55px;
   background-image: url("icons8-stop-50.png");
   background-repeat: no-repeat;
   padding: 10px;
 }
-#hover:hover{
+#hover:hover {
   transform: translateY(3px);
 }
-#hover:active{
+#hover:active {
   background-color: rgb(209, 153, 153);
 }
-#hover:focus{
+#hover:focus {
   background-color: rgb(122, 238, 228);
 }
 
-
-.container{
-  display:b;
+.container {
+  align-items: center;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
   padding: 15px;
   border: 2px solid black;
   border-radius: 10px;
- margin-top: 40px;
-  height: 700px;
-  width: 500px;
+  margin-top: 30px;
   background-color: antiquewhite;
-  
 }
-.field{
-margin-left: 70px;
-margin-top: 100px;
-padding: 30px;
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.feild {
+  align-items: center;
+  display: flex;
 }
